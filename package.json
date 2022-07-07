@@ -1,5 +1,5 @@
 {
-  "name": "x2download",
+  "name": "fbdownload",
   "version": "1.0.0",
   "description": "percobaan pertama scraping",
   "main": "index.js",
@@ -11,5 +11,18 @@
   "dependencies": {
     "axios": "^0.27.2",
     "node-fetch": "^3.2.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boedzhanks/test.git"
+  },
+  "keywords": [
+    "fbdownload",
+    "facebook"
+  ],
+  "bugs": {
+    "url": "https://github.com/boedzhanks/test/issues"
+  },
+  "homepage": "https://github.com/boedzhanks/test#readme"
 }
