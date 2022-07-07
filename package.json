@@ -1,0 +1,15 @@
+{
+  "name": "x2download",
+  "version": "1.0.0",
+  "description": "percobaan pertama scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "boedzhanks",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.4"
+  }
+}
