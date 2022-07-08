@@ -13,12 +13,17 @@
 [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/boedzhanks)
 [<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">](https://youtube.com/ShinoaHiiragi)
     
+## ```INSTALL And UNINSTALL```
+> npm install fbdownload
+>  
+> npm uninstall fbdownload
+
 ## ```How to Use```
 ``` 
-const scrape = require('./index.js')
+const fb = require('fbdownload')
 const url = 'https://www.facebook.com/groups/keluhresahpemaingenshinimpact/permalink/2148709575289122/'
 
-    scrape.fbdown(url)
+    fb.fbdown(url)
         .then(result => {
             console.log(result)
         })
