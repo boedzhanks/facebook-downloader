@@ -9,10 +9,15 @@
   "author": "boedzhanks",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^0.27.2",
     "node-fetch": "^3.2.4"
   },
   "devDependencies": {},
+=======
+    "axios": "^0.27.2"
+  },
+>>>>>>> 768d732 (update)
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boedzhanks/test.git"

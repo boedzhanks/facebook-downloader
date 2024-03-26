@@ -1,19 +1,21 @@
 const { default: axios } = require('axios');
 
-async function fbdown(url) {
-	try {
-		const result = await axios('https://x2download.com/api/ajaxSearch/facebook',{
+try {
+axios('https://x2download.app/api/ajaxSearch/facebook',{
 			method: "POST",
-			data: "q=" + encodeURIComponent(url)
-		})
-		return {
-			status: true,
-			author: 'boedzhanks',
-			result: result.data,
-		}
-} catch (error) {
-	console.log(error)
+			data: "q=" + encodeURIComponent(url) + "vt=facebook"
+  })
+  .then(function (response) {
+    console.log(response.data);
+    return {
+        status: 200,
+        author: 'boedzhanks',
+        result: response.data,
+    }
+  })
 }
+catch(err) {
+    console.log(err)
 }
 
 module.exports = {
