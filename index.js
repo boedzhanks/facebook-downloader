@@ -1,7 +1,5 @@
 const { default: axios } = require('axios');
 
-url = `https://fb.watch/r2GFy0tGQA/`
-
 exports.fbdown = async (url) => {
 try {
 const res = await axios('https://x2download.app/api/ajaxSearch/facebook',{
