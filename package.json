@@ -1,6 +1,6 @@
 {
-  "name": "fbdownload",
-  "version": "0.0.4",
+  "name": "facebook-download",
+  "version": "1.0.0",
   "description": "Facebook Downloader Scrape",
   "main": "index.js",
   "dependencies": {
